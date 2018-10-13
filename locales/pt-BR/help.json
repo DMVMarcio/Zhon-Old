@@ -1,0 +1,126 @@
+{
+    "ascii": {
+        "desc": "transforme textos em ascii.",
+        "category": 1
+    },
+    "autorole": {
+        "desc": "adicione um cargo automático ao seu servidor.",
+        "category": 1
+    },
+    "avatar": {
+        "desc": "mostra a foto de usuário de um usuário.",
+        "category": 1
+    },
+    "ban": {
+        "desc": "de ban em alguém.",
+        "category": 2
+    },
+    "blackchannel": {
+        "desc": "bloqueia comandos em um canal especifico.",
+        "category": 1
+    },
+    "blackcmd": {
+        "desc": "bloqueie comandos em seu servidor.",
+        "category": 1
+    },
+    "botinfo": {
+        "desc": "mostra informações de um bot.",
+        "category": 1
+    },
+    "box": {
+        "desc": "veja e abra suas caixas.",
+        "category": 3
+    },
+    "byebye": {
+        "desc": "define uma mensagem de saida no servidor.",
+        "category": 1
+    },
+    "clear": {
+        "desc": "deleta uma quantidade especifica de mensagens até 100.",
+        "category": 2
+    },
+    "cmdcustom": {
+        "desc": "comandos customizados para o servidor.",
+        "category": 1
+    },
+    "config": {
+        "desc": "configura algumas funções do bot no servidor.",
+        "category": 1
+    },
+    "discrim": {
+        "desc": "pesquisa usuários pelo seu discriminator.",
+        "category": 1
+    },
+    "filter": {
+        "desc": "filtra palavras, links e convites no servidor.",
+        "category": 1
+    },
+    "getbox": {
+        "desc": "colete uma caixa quando dropada.",
+        "category": 3
+    },
+    "fortnite": {
+        "desc": "mostra informações de um jogador no fortnite.",
+        "category": 1
+    },
+    "invite": {
+        "desc": "gerencie os convites de seu servidor.",
+        "category": 1
+    },
+    "kick": {
+        "desc": "expulse um usuário do servidor.",
+        "category": 2
+    },
+    "level": {
+        "desc": "veja seu nivel ou do usuário mencionado.",
+        "category": 3
+    },
+    "mine": {
+        "desc": "simples comandos sobre minecraft.",
+        "category": 1
+    },
+    "profile": {
+        "desc": "veja seu perfil ou do usuário mencionado.",
+        "category": 3
+    },
+    "rep": {
+        "desc": "de pontos de reputação à um usuário.",
+        "category": 3
+    },
+    "reverse": {
+        "desc": "inverta uma frase especifica.",
+        "category": 1
+    },
+    "roles": {
+        "desc": "mostra os cargos do servidor.",
+        "category": 1
+    },
+    "serverinfo": {
+        "desc": "mostra informações do servidor.",
+        "category": 1
+    },
+    "setbackground": {
+        "desc": "troque o fundo do seu perfil.",
+        "category": 3
+    },
+    "sobremim": {
+        "desc": "diga algo sobre você que ficará no seu perfil.",
+        "category": 3
+    },
+    "staff": {
+        "desc": "veja toda a staff responsável pelo bot.",
+        "category": 1
+    },
+    "traduzir": {
+        "desc": "traduza uma frase especifica.",
+        "category": 1
+    },
+    "userinfo": {
+        "desc": "mostra informações sobre um usuário.",
+        "category": 1
+    },
+    "welcome": {
+        "desc": "define uma mensagem de entrada no servidor.",
+        "category": 1
+    }
+}

@@ -1,0 +1,309 @@
+{
+    "apostar": {
+        "betFinish": ":moneybag: | **Parabéns** ,<@{{vencedor}}>, Tu ganhou **{{coins}}** moedas.",
+        "betDeclined": "<:xZhon:491437979303280640> **Pedido** de aposta **recusado**.",
+        "accept": "aceitar",
+        "decline": "recusar",
+        "receivedOrder": ":money_with_wings: | <@{{apostador2}}> recebeu um **PEDIDO DE APOSTA** de <@{{apostador}}> no valor de **{{coins}}** moedas.\n**Responder com:** `aceitar` ou `recusar`.",
+        "timeout": "<:xZhon:491437979303280640> Seu **tempo acabou**.",
+        "insufficientMoney": "<:xZhon:491437979303280640> **Tu** ou o **utilizador** mencionado **não possuem** essa quantia de **dinheiro**.",
+        "underZero": "<:xZhon:491437979303280640> O **valor** da aposta não pode ser **abaixo de 0**.",
+        "noArgs": "<:xZhon:491437979303280640> **Me diga** o **quanto** Tu quer **apostar**.",
+        "cooldown": "<:xZhon:491437979303280640> **Por favor**, aguarde **1 minuto** para enviar outra **solicitação de aposta**.",
+        "memberAlreadyRequested": "<:xZhon:491437979303280640> Este utilizador **já recebeu** uma **solicitação de aposta**.",
+        "requestAlreadyReceived": "<:xZhon:491437979303280640> **Tu já recebeu** uma **solicitação de aposta**.",
+        "youAlreadyRequested": "<:xZhon:491437979303280640> **Tu já** fez uma **solicitação de aposta**.",
+        "noMention": "<:xZhon:491437979303280640> **Diga** com quem **Tu** deseja fazer uma **aposta**.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "ascii": {
+        "asciiText": ":pencil: Ascii por **{{member}}:**\n```{{result}}```",
+        "characterLimit": "<:xZhon:491437979303280640> Limite de **15 caracteres** atingido.",
+        "noArgs": "<:xZhon:491437979303280640> Diga um **texto** para **transformar em ascii**."
+    },
+    "avatar": {
+        "userAvatar": "Avatar de {{user}}"
+    },
+    "ban": {
+        "notReason": "Motivo não especificado.",
+        "banned": "<:blobsaluteban:461917841361338369> O utilizador **{{member}}** foi **banido** com sucesso por **{{author}}**.",
+        "highestRole": "<:xZhon:491437979303280640> Seu **cargo** precisa ser **maior** que o do utilizador **mencionado**.",
+        "noBannable": "<:xZhon:491437979303280640> **Não** posso **banir** esse utilizador.",
+        "noMention": "<:xZhon:491437979303280640> **Mencione** quem Tu deseja **banir**.",
+        "noPerm": "<:xZhon:491437979303280640> Tu **não possui** a permissão `BANIR MEMBROS`.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "cat": {
+        "cat": ":heart_eyes_cat: Gato Aleatório:"
+    },
+    "clear": {
+        "clear": "**:wastebasket: Chat limpo por <@{{user}}> ( {{quantidade}} mensagens )!**",
+        "noArgs": "<:xZhon:491437979303280640> Diga a **quantidade de mensagens** que serão **apagadas**.",
+        "noPerm": "<:xZhon:491437979303280640> Tu **não possui** a permissão `GERENCIAR MENSAGENS`.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "coins": {
+        "yesMention": ":small_blue_diamond: Este utilizador possui **{{coins}}** coins.",
+        "noMention": ":small_blue_diamond: Tu possui **{{coins}}** coins.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "daily": {
+        "collectedMoney": ":moneybag: Tu coletou **{{valor}}** coins.",
+        "alreadyGiven": ":money_with_wings: | Tu pode coletar seu **dinheiro** daqui à **{{time}}**.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "discrim": {
+        "result": ":satellite: utilizadors encontrados [Shard {{shard}}/{{shardCount}}]:",
+        "notFound": "<:xZhon:491437979303280640> **Nenhum** utilizador encontrado.",
+        "character": "<:xZhon:491437979303280640> O **discriminator** deve conter **4 digitos**.",
+        "invalidDiscriminator": "<:xZhon:491437979303280640> Um **discriminator** deve ser **entre** `0000` **e** `9999`.",
+        "noArgs": "<:xZhon:491437979303280640> Cite um **discriminator**, exemplo: `0000`"
+    },
+    "doar": {
+        "givenMoney": ":money_with_wings: | Doado **{{coins}}** coins para **{{member}}**.",
+        "insufficientMoney": "<:xZhon:491437979303280640> Tu **não** possui esta **quantidade** de **dinheiro**.",
+        "underZero": "<:xZhon:491437979303280640> A quantidade de **dinheiro** não pode ser **abaixo** de 1.",
+        "noArgs": "<:xZhon:491437979303280640> Diga a **quantidade** de **dinheiro** que deseja **doar**.",
+        "noMention": "<:xZhon:491437979303280640> **Mencione** quem Tu deseja **doar** dinheiro.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "dog": {
+        "dog": ":dog: Cachorro aleatorio:"
+    },
+    "events": {
+        "argsFound": "",
+        "errorFound": ":tools: Olá **{{member}}**, parece que um **erro** foi encontrado. Por questões de **segurança**, o comando acaba de entrar em **manutençao**.\n**Erro:** {{erro}}",
+        "vipWon": "**Parabéns, agora Tu é um utilizador vip.**",
+        "vipFinish": "**Infelizmente seu vip acabou, Tu pode adquirir novamente usando `{{prefix}}vip` :cry:**",
+        "mentionBot": "**Ei {{member}}, use `{{prefix}}help` para saber os meus comandos.**",
+        "levelUp": ":tada: **Parabéns {{member}}**, tu acabas de subir para o **nível {{level}}**! :ok_hand::skin-tone-1:",
+        "commandInMaintenance": "**<:xZhon:491437979303280640> Comando em manutenção, tenta mais tarde.**",
+        "cmdDB": "<:xZhon:491437979303280640> **Tenta usar o comando novamente.**",
+        "banned": "<:xZhon:491437979303280640> **Tu estás proibido de usar qualquer comando do bot.**",
+        "cooldown": "**<:xZhon:491437979303280640> Aguarda 3 segundos para usar outro comando.**"
+    },
+    "getbox": {
+        "common": "",
+        "rare": "",
+        "epic": "",
+        "legendary": "",
+        "get": "",
+        "noBox": "",
+        "errorOccurred": ""
+    },
+    "hug": {
+        "noMention": "**<:xZhon:491437979303280640> Menciona quem queres dar um abraço.**",
+        "youMention": "**<:xZhon:491437979303280640> Tu não podes te abraçar.**",
+        "hug": ":blush: {{author}} deu um abraço em {{member}}"
+    },
+    "invite": {
+        "inviteInfoEmbedFields": {
+            "inviteURL": {
+                "title": ":desktop: Link de convite:",
+                "value": "**[clique aqui](https://discord.gg/{{convite}})**"
+            },
+            "inviteCode": {
+                "title": ":keyboard: Código do convite:"
+            },
+            "creator": {
+                "title": ":bust_in_silhouette: Criado por:"
+            },
+            "inviteUses": {
+                "title": ":fax: Usos:"
+            },
+            "createdIn": {
+                "title": ":calendar: Criado em:"
+            },
+            "timeoutIn": {
+                "title": ":calendar: Expira em:",
+                "value": "Tempo ilimitado."
+            }
+        },
+        "serverInvitesEmbed": {
+            "title": ":postbox: Convites de {{guild}}:",
+            "description": "`{{convites}}`\n\nUsa `{{prefix}}invite info <código do convite>` para ver **informações** sobre o **convite**."
+        },
+        "userInvites": ":postbox: Convites de {{member}}:",
+        "createdInvite": ":envelope_with_arrow: {{member}} **Link** de **convite** criado: **{{link}}**",
+        "inviteNotFound": "<:xZhon:491437979303280640> O **convite** não foi encontrado.",
+        "noUserInvites": "<:xZhon:491437979303280640> O **utilizador** não criou nenhum **convite** instantâneo.",
+        "noServerInvites": "<:xZhon:491437979303280640> O **servidor** não possui nenhum **convite** instantâneo.",
+        "noPermMember": "<:xZhon:491437979303280640> Tu **não possuis** a permissão `CRIAR UM CONVITE INSTANTÂNEO`.",
+        "noPermBot": "<:xZhon:491437979303280640> Parece que eu **não possuo** a permissão `CRIAR UM CONVITE INSTANTÂNEO`.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "kiss": {
+        "noMention": "**<:xZhon:491437979303280640> Menciona quem queres dar um beijo.**",
+        "youMention": "**<:xZhon:491437979303280640> Tu podes te beijar a ti mesmo.**",
+        "kiss": ":kissing_heart: {{author}} deu um beijo em {{member}}"
+    },
+    "lang": {
+        "changeSuccessfullyTo": "A minha língua foi alterada para {{lang}} com sucesso!",
+        "invalidLang": "<:xZhon:491437979303280640> Língua **inválida**, `{{langs}}`",
+        "alreadyDefined": "<:xZhon:491437979303280640> Língua **já definida**.",
+        "noArgs": "<:xZhon:491437979303280640> **Diz** a **língua** desejada: `{{langs}}`",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "level": {
+        "yesMention": ":small_blue_diamond: Este utilizador está no nível **{{level}}**.",
+        "noMention": ":small_blue_diamond: Tu estás no nível **{{level}}**.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "logs": {
+        "logsOff": "<:checkZhon:491438226352111616> O sistema de **logs** foi **desativado** neste servidor",
+        "logsOn": "<:checkZhon:491438226352111616> O sistema de **logs** foi **ativado** neste servidor",
+        "noPerm": "<:xZhon:491437979303280640> Tu **não possuis** a permissão `MANAGE SERVER` para usar este comando.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "manu": {
+        "exit": "",
+        "enter": "",
+        "invalidCommand": "",
+        "noArgs": "",
+        "noPerm": ""
+    },
+    "pause": {
+        "paused": "",
+        "alreadyPaused": "",
+        "noPerm": "",
+        "differentChannels": "",
+        "noVoiceChannel": "",
+        "noPlaying": ""
+    },
+    "play": {
+        "embedResults": {
+            "title": "",
+            "description": ""
+        },
+        "embedPlay": {
+            "fields": {
+                "channel": {
+                    "title": ""
+                },
+                "owner": {
+                    "title": ""
+                },
+                "likes": {
+                    "title": ""
+                },
+                "dislikes": {
+                    "title": ""
+                },
+                "views": {
+                    "title": ""
+                },
+                "duration": {
+                    "title": ""
+                },
+                "link": {
+                    "value": ""
+                }
+            }
+        },
+        "playing": "",
+        "endPlaylist": "",
+        "addedPlaylist": "",
+        "invalidPlaylist": "",
+        "addedMusic": "",
+        "errorConnect": "",
+        "differentChannels": "",
+        "noPerm": "",
+        "timeout": "",
+        "musicNotFound": "",
+        "invalidLink": "",
+        "noArgs": "",
+        "noVoiceChannel": "",
+        "alreadyChoosing": ""
+    },
+    "rep": {
+        "givenRep": ":briefcase: | Ponto de **Reputação** dado a **{{member}}**.",
+        "mentionYou": "<:xZhon:491437979303280640> **Tu não** podes dar **reputação** a **ti mesmo**.",
+        "mentionBot": "<:xZhon:491437979303280640> **Tu não** podes dar reputação **a** um **bot**.",
+        "timeHasEnded": ":briefcase: | **Tu** já podes dar um ponto de **reputação** a alguém.",
+        "alreadyGiven": ":briefcase: | **Tu** só podes **dar reputação** daqui a **{{time}}**.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando."
+    },
+    "repeat": {
+        "definedMode": "",
+        "alreadyDefined": "",
+        "invalidArgs": "",
+        "noArgs": "",
+        "noPerm": "",
+        "differentChannels": "",
+        "noVoiceChannel": "",
+        "noPlaying": ""
+    },
+    "restart": {
+        "noPerm": "",
+        "differentChannels": "",
+        "noVoiceChannel": "",
+        "noPlaying": ""
+    },
+    "resume": {
+        "resumed": "",
+        "alreadyPlaying": "",
+        "noPerm": "",
+        "differentChannels": "",
+        "noVoiceChannel": "",
+        "noPlaying": ""
+    },
+    "reverse": {
+        "noArgs": "<:xZhon:491437979303280640> **Diz** o que **tu** queres **reverter**."
+    },
+    "roles": {
+        "roles": ":books: Cargos de {{guild}}: ({{roles}})"
+    },
+    "ship": {
+        "msg1": ":thinking: Como Tus se **falam**?",
+        "msg2": ":disappointed_relieved: **Não foi desta vez.**",
+        "msg3": ":shrug: Acho que são **apenas amigos**.",
+        "msg4": ":earth_africa: **Talvez** tenham **futuro**...",
+        "msg5": ":kissing_closed_eyes: Que **belo casal**.",
+        "msg6": ":heart_eyes: Casal **perfeito**, ou melhor, **impossível**.",
+        "noMention": "<:xZhon:491437979303280640> **Menciona** um ou dois **utilizadores**.",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **shipar** os dois utilizadores."
+    },
+    "skip": {
+        "jumped": "",
+        "noSong": "",
+        "noPerm": "",
+        "differentChannels": "",
+        "noVoiceChannel": "",
+        "noPlaying": ""
+    },
+    "slap": {
+        "noMention": "**<:xZhon:491437979303280640> Menciona em quem queres dar uma chapada.**",
+        "youMention": "**<:xZhon:491437979303280640> Tu não podes dar uma chapada em ti mesmo.**",
+        "slap": ":clap::skin-tone-1: {{author}} deu uma chapada em {{member}}"
+    },
+    "sobremim": {
+        "noArgs": "<:xZhon:491437979303280640> Diz-me algo **sobre ti**.",
+        "characterLimit": "<:xZhon:491437979303280640> **Limite de `183` caracteres atingido.**",
+        "errorOccurred": "<:xZhon:491437979303280640> **Houve** um **erro** ao **executar** este comando.",
+        "changedSuccessfullyTo": ":clipboard: | O teu **sobremim** foi alterado para `{{sobre}}`."
+    },
+    "staff": {
+        "description": "Olá, eu sou o **Zhon**, aqui está **TODA** a equipa responsável pelo meu desenvolvimento:\n**[Formulário para fazer parte da equipa](https://goo.gl/forms/lGbmNBsEt9qyQo722)**",
+        "owners": ":crown: Donos(as)",
+        "subowners": ":crown: SubDonos(as)",
+        "programmers": ":keyboard: Programadores:",
+        "supervisors": "<:police_officer:460499215882387482> Supervisores:",
+        "designers": ":paintbrush: Designers:"
+    },
+    "stop": {
+        "noPerm": "",
+        "differentChannels": "",
+        "noVoiceChannel": "",
+        "noPlaying": ""
+    },
+    "traduzir": {
+        "before": ":open_file_folder: Antes:',",
+        "after": ":file_folder: Depois:",
+        "invalidLang": "<:xZhon:491437979303280640> **Essa língua parece não existir.**",
+        "noArgsText": "<:xZhon:491437979303280640> **Diz o que devo traduzir.**",
+        "noArgsLang": "<:xZhon:491437979303280640> **Diz o idioma que pretendes.**"
+    },
+    "vip": {
+        "description": "Tu podes adquirir **VIP** dando upvote no: **[DISCORD BOTS LIST](https://discordbots.org/bot/451155262431035393/vote)**\n\n:page_with_curl: **Duração de 12 horas.**\n\n**Prémios:**\n```\n- EMBLEMA NO PERFIL\n- COINS x2\n- XP x2\n- COMANDOS ESPECIAIS```"
+    }
+}
